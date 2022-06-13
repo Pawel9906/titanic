@@ -3,12 +3,13 @@ Pierwszym zastosowanym algorytmem będzie analiza najbliższego sąsiada.
 Rozpatrzymy tutaj takie cechy, jak rok urodzenia, liczba rodzeństwa/małżonka
 liczba rodziców/dzieci i klasa. Tym sposobem każdemu pasażerowi
 odpowiadać będzie punkt w przestrzeni 4D. Na każdej z osi możliwa wartoć
-niech będzie należeć do przedziału od -10 do 10
+niech będzie należeć do przedziału od -10 do 10. Taki sam rozstęp na każdej z osi
+sprawi, że nie powinno być sytuacji, w której jedna cecha zdecydowanie zdominuje pozostałe.
 
-Rozważane parametry mogą przyjmować stosunkowo zróżnicowane wartoci, dlatego
+Rozważane parametry mogą przyjmować stosunkowo zróżnicowane wartosci, dlatego
 metoda analizy sąsiada powinna być sensowna. Cecha płci przyjmuje tylko
-2 wartoci, więc lepiej może jej nie dawać przy tym algorytmie.
-
+2 wartosci, więc lepiej może jej nie dawać przy tym algorytmie. Cechy przyjmujące 3, 4, 5 wartości
+myślę, że już można przeanalizowac.
 
 Najpierw stworzymy klasę dot. pasażerów.
  Potem wytworzymy odpowiednią liczbę obiektów odpowiadających pasażerom,
